@@ -1,2 +1,3 @@
 
-<A href="http://www.parthbhatt.com/bookshelf/">Demo</A>.
+`Demo <http://www.parthbhatt.com/bookshelf/>`_
+
