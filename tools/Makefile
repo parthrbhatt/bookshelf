@@ -1,6 +1,7 @@
 
-deploy:
+generate:
 	python generate.py
+	rm -rf ../images
 	mv images ../
 	mv data.js ../js/data.js
 
