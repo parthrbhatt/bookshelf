@@ -1,0 +1,60 @@
+body {
+    background-color: #D8D8D8;
+}
+
+.header {
+    font-family: 'Pacifico', cursive;
+    font-size: 34px;
+
+}
+
+.book {
+    padding: 25px 0 0 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-height: auto;
+}
+
+.parent {
+    position: relative;
+}
+
+.bookreviewed {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    right: 20px;
+    height: 7%;
+    width: 50%;
+    font-size: 2vmin;
+    background: #F7991C;
+    text-align: center;
+    vertical-align: middle;
+    color: #302F47;
+    font-weight: bold;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.shelf {
+    border-bottom: 30px solid #a5a5a5;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: -15px;
+    z-index: -10;
+}
+
+.shelf:after {
+    content: '';
+    background: #686868;
+    height: 20px;
+    width: calc(100% + 40px); /* for IE9+ */
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 -20px;
+}

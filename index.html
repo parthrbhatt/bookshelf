@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <META http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <META charset="utf-8">
+        <TITLE>Parth Bhatt's Bookshelf</TITLE>
+        <META name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <LINK href="lib/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <SCRIPT src="//html5shim.googlecode.com/svn/trunk/html5.js"></SCRIPT>
+        <![endif]-->
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <LINK rel="stylesheet" type="text/css" href="css/style.css">
+        <SCRIPT type='text/javascript' src="js/data.js"></SCRIPT>
+        <SCRIPT type='text/javascript' src="js/book_loader.js"></SCRIPT>
+    </HEAD>
+    <BODY>
+
+
+    <DIV class="container">
+      <BR/> <BR/>
+
+      <DIV class="row">
+        <DIV class="col-md-7 header">
+        Books I've read...
+        </DIV>
+        <DIV class="col-md-3">
+          <FORM>
+            <!--<INPUT type="text" placeholder="Search" class="form-control"/> -->
+          </FORM>
+        </DIV>
+        <DIV class="col-md-2">
+          <FORM>
+            <SELECT class="form-control" id="genre" onChange="loadBooks()">
+                <OPTION value="All">All Genres</OPTION>
+                <OPTION value="ScienceFiction">Science Fiction</OPTION>
+                <OPTION value="Fiction">Fiction</OPTION>
+                <OPTION value="Science">Science</OPTION>
+                <OPTION value="Humor">Humor</OPTION>
+                <OPTION value="Adventure">Adventure</OPTION>
+                <OPTION value="NonFiction">Non Fiction</OPTION>
+                <OPTION value="Philosophy">Philosophy</OPTION>
+                <OPTION value="Business">Business</OPTION>
+                <OPTION value="Management">Management</OPTION>
+                <OPTION value="Leadership">Leadership</OPTION>
+                <OPTION value="SelfHelp">Self Help</OPTION>
+                <OPTION value="Finances">Finances</OPTION>
+                <OPTION value="Mystery">Mystery</OPTION>
+            </SELECT>
+          </FORM>
+        </DIV>
+      </DIV><!-- End: row -->
+
+      <DIV class="row" id="bookData">
+
+        <!-- THIS WILL GET POPULATED DYNAMICALLY -->
+
+      </DIV> <!-- End: row -->
+
+    </DIV> <!-- End: container -->
+    <BR/> <BR/>
+
+    <SCRIPT type='text/javascript' src="lib/jquery/2.0.2/jquery.min.js"></SCRIPT>
+    <SCRIPT type='text/javascript' src="lib/bootstrap/3.2.0/js/bootstrap.min.js"></SCRIPT>
+
+    <SCRIPT>
+    loadBooks();
+    </SCRIPT>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=6983837; 
+var sc_invisible=1; 
+var sc_security="175299bb"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics tool" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/6983837/0/175299bb/1/"
+alt="shopify analytics tool"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+    </BODY>
+</HTML>
