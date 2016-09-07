@@ -64,5 +64,4 @@ function loadBooks() {
   }
 
   document.getElementById("bookData").innerHTML = bookData;
-  //console.log(document.getElementById("bookData").innerHTML);
 }
