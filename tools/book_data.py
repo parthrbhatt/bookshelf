@@ -61,11 +61,11 @@ BOOKS = {
         {
           "title": "Rich Dad, Poor Dad",
           "author": "Robert T. Kiyosaki",
-          "genre": "Business, Self Help, Non Fiction, Finances",
+          "genre": "Business, Self Help, Non Fiction, Finance",
           "goodreads": {
               "url": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
               "image": "https://d.gr-assets.com/books/1388211242l/69571.jpg",
-              "genre": "Business, Self Help, Non Fiction, Finances, Self Help > Personal Development, Inspirational, Reference, Philosophy, Education, Management"
+              "genre": "Business, Self Help, Non Fiction, Finance, Self Help > Personal Development, Inspirational, Reference, Philosophy, Education, Management"
           }
         },
         {
@@ -89,7 +89,17 @@ BOOKS = {
               "genre": "Science Fiction, Fiction, Mystery, Science Fiction > Time Travel, Apocalyptic > Post Apocalyptic, Fantasy, Science Fiction Fantasy, Space, Adventure, Speculative Fiction"
           }
         },
-          {
+        {
+          "title": "The Egg",
+          "author": "Andy Weir",
+          "genre": "Short Stories, Philosophy, Fiction, Science Fiction",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/17563539-the-egg",
+              "image": "https://images.gr-assets.com/books/1431492647l/17563539.jpg",
+              "genre": "Short Stories, Philosophy, Fiction, Science Fiction, Fantasy, religion"
+          }
+        },
+        {
           "title": "Prey",
           "author": "Michael Crichton",
           "genre": "Science Fiction, Fiction",
@@ -110,6 +120,36 @@ BOOKS = {
           }
         },
         {
+          "title": "The Shining",
+          "author": "Stephen King",
+          "genre": "Horror, Thriller, Fiction, Suspense",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/11588.The_Shining",
+              "image": "https://images.gr-assets.com/books/1353277730l/11588.jpg",
+              "genre": "Horror, Fiction, Thriller, Classics, Fantasy, Paranormal, Supernatural, Suspense"
+          }
+        },
+        {
+          "title": "Different Seasons",
+          "author": "Stephen King",
+          "genre": "Fiction, Short Stories, Classics, Suspense",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/39662.Different_Seasons",
+              "image": "https://images.gr-assets.com/books/1329662611l/39662.jpg",
+              "genre": "Fiction, Classics, Philosophy, Short Stories, Suspense, Inspirational"
+          }
+        },
+        {
+          "title": "TimeRiders",
+          "author": "Alex Scarrow",
+          "genre": "Science Fiction, Fantasy",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/6773432-timeriders",
+              "image": "https://images.gr-assets.com/books/1327957121l/6773432.jpg",
+              "genre": "Science Fiction, Time Travel, Adventure"
+          }
+        },
+        {
           "title": "Eye of God",
           "author": "James Rollins",
           "genre": "Fiction, Adventure, Mystery",
@@ -122,11 +162,11 @@ BOOKS = {
         {
           "title": "Swamy and Friends",
           "author": "R.K. Narayan",
-          "genre": "Fiction, Humor",
+          "genre": "Fiction, Humor, Short Stories",
           "goodreads": {
               "url": "https://www.goodreads.com/book/show/732482.Swami_and_Friends",
               "image": "https://d.gr-assets.com/books/1328872382l/732482.jpg",
-              "genre": "Fiction, Cultural > India, Classics, Asian Literature > Indian Literature, Humor, Childrens, Short Stories, Young Adult, Literature, Novels"
+              "genre": "Fiction, Cultural > India, Classics, Asian Literature > Indian Literature, Humor, Childrens, Short Stories, Young Adult, Literature"
           }
         },
         {

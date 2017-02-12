@@ -1,0 +1,4 @@
+
+*.pyc
+changelog.md
+venv
