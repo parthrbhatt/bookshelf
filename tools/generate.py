@@ -6,7 +6,8 @@ import PIL
 from PIL import Image
 
 import urllib
-from urlparse import urlparse
+import urllib.request
+#from urllib.parse import urlparse
 
 from book_data import BOOKS
 
@@ -28,19 +29,20 @@ def resize(src_image, dst_image):
 
 def _get_filename_from_url(url):
 
-    parse_result = urlparse(url)
+    parse_result = urllib.parse.urlparse(url)
     path, filename = os.path.split(parse_result.path)
 
     return filename
 
 
 def download(url, dst_image):
-    image = urllib.URLopener()
-    image.retrieve(url, dst_image)
+    #image = urllib.URLopener()
+    #image.retrieve(url, dst_image)
+    urllib.request.urlretrieve(url, dst_image)
 
 
 def foo():
-    #print json.dumps(BOOKS, indent=4)
+    #print (json.dumps(BOOKS, indent=4))
     genres = {}
     books = BOOKS.get('books')
     for book in books:
@@ -52,12 +54,11 @@ def foo():
                   genres.get(genre.strip()).append(book.get('title'))
 
     for genre in genres.keys():
-        print '%s: %d' %(genre, len(genres.get(genre)))
-        print '='*80
+        print ('%s: %d' %(genre, len(genres.get(genre))))
+        print ('='*80)
         for title in genres.get(genre):
-            print '%80s' %(title)
-        print '\n'
-
+            print ('%80s' %(title))
+        print ('\n')
 
 
 def generate_html():
@@ -108,7 +109,7 @@ def resize_book_images():
     books = BOOKS.get('books')
     for book in books:
         image = book.get('goodreads').get('image')
-        print 'Resizing: %s' %image
+        print ('Resizing: %s' %image)
         download(image, os.path.join('original', _get_filename_from_url(image)))
         resize(
             os.path.join('original', _get_filename_from_url(image)),
@@ -123,4 +124,4 @@ if '__main__' == __name__:
     fd = open('data.js', 'w')
     fd.write(js_data)
     fd.close()
-    #print generate_html()
+    #print (generate_html())
