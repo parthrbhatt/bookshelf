@@ -9,6 +9,36 @@ manually.
 BOOKS = {
     "books" : [
         {
+          "title": "Sapiens: A Brief History of Humankind",
+          "author": "Yuval Noah Harari",
+          "genre": "Self Help, Non Fiction",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/23692271-sapiens",
+              "image": "https://images.gr-assets.com/books/1420585954l/23692271.jpg",
+              "genre": "Self Help, Non Fiction, Spirituality"
+          }
+        },
+        {
+          "title": "The Star",
+          "author": "Arthur C. Clarke",
+          "genre": "Short Stories, Science Fiction",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/13598725-the-star",
+              "image": "https://images.gr-assets.com/books/1451214185l/13598725.jpg",
+              "genre": "Short Stories, Science Fiction"
+          }
+        },
+        {
+          "title": "Origin",
+          "author": "Dan Brown",
+          "genre": "Science Fiction, Thriller, Mystery",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/32283133-origin",
+              "image": "https://images.gr-assets.com/books/1507308545l/32283133.jpg",
+              "genre": "Science Fiction, Thriller, Mystery"
+          }
+        },
+        {
           "title": "Pale Blue Dot",
           "author": "Carl Sagan",
           "genre": "Science, Non Fiction, Philosophy",
@@ -56,6 +86,16 @@ BOOKS = {
               "url": "https://www.goodreads.com/book/show/4765642-stay-hungry-stay-foolish",
               "image": "https://d.gr-assets.com/books/1236261939l/4765642.jpg",
               "genre": "Non Fiction, Business, Biography, Self Help, Management, Autobiography > Memoir, Biography > Autobiography, Asian Literature > Indian Literature, Inspirational, Cultural > India"
+          }
+        },
+        {
+          "title": "The Dhandho Investor: The Low-Risk Value Method to High Returns",
+          "author": "Mohnish Pabrai",
+          "genre": "Business, Non Fiction, Finance",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/19208021-the-dhandho-investor",
+              "image": "https://images.gr-assets.com/books/1386254828l/19208021.jpg",
+              "genre": "Business, Self Help, Non Fiction, Finance, Economics"
           }
         },
         {
@@ -187,6 +227,16 @@ BOOKS = {
           "goodreads": {
               "url": "https://www.goodreads.com/book/show/18007564-the-martian",
               "image": "https://d.gr-assets.com/books/1413706054l/18007564.jpg",
+              "genre": "Adventure, Thriller, Science Fiction Fantasy, Science Fiction, Adventure > Survival, Humor, Novels, Contemporary, Fantasy, Adult"
+          }
+        },
+        {
+          "title": "Artemis",
+          "author": "Andy Weir",
+          "genre": "Adventure, Science Fiction",
+          "goodreads": {
+              "url": "https://www.goodreads.com/book/show/34928122-artemis",
+              "image": "https://images.gr-assets.com/books/1494273579l/34928122.jpg",
               "genre": "Adventure, Thriller, Science Fiction Fantasy, Science Fiction, Adventure > Survival, Humor, Novels, Contemporary, Fantasy, Adult"
           }
         },
