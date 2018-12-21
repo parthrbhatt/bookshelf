@@ -7,7 +7,6 @@ from PIL import Image
 
 import urllib
 import urllib.request
-#from urllib.parse import urlparse
 
 from book_data import BOOKS
 
